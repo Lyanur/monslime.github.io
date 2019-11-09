@@ -6,7 +6,7 @@ body {
 }
 header {
 	background-color: #666;
-	height: 100px;
+	height: 8%;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -14,7 +14,7 @@ header {
 	position: fixed;
 }
 .MT {
-	font-size: 24px;
+	font-size: 32px;
 	color: #fff;
 	text-decoration: none;
 	margin: 5px;
@@ -31,7 +31,20 @@ header {
 	width: 20%;
 }
 content {
+	padding-top: 4%;
 	height: 2000px;
 	background-color: #ddd;
 	display: flex
+}
+footer {
+	height: 6%;
+	width: 100%;
+	background-color: #666;
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+}
+footer > p > a {
+	text-decoration: none;
+	color: #fff;
 }
