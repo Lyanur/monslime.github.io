@@ -12,6 +12,7 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
+	transition: 0.3s transform cubic-bezier(.3,.73,.3,.74);
 }
 .MT {
 	font-size: 32px;
@@ -31,10 +32,10 @@ header {
 	width: 20%;
 }
 content {
-	padding-top: 8%;
 	height: 1000px;
 	background-color: #ddd;
-	display: flex
+	display: flex;
+	padding-top: 10%;
 }
 footer {
 	height: 6%;
