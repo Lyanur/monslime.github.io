@@ -1,15 +1,25 @@
 body {
 	font-size: 16px;
 	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
 }
 header {
 	background-color: #666;
+	height: 15%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.menu {
-	font-size: 140%;
+.MI {
+	font-size: 28px;
 	color: #fff;
 	text-decoration: none;
+}
+#L {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#L img {
+	width: 40px;
 }
