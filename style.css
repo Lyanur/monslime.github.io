@@ -31,8 +31,8 @@ header {
 	width: 20%;
 }
 content {
-	padding-top: 4%;
-	height: 2000px;
+	padding-top: 8%;
+	height: 1000px;
 	background-color: #ddd;
 	display: flex
 }
