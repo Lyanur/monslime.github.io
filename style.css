@@ -14,6 +14,7 @@ header {
 	align-items: center;
 	height: 100px;
 	background-color: #36abcb;
+	position: fixed;
 }
 .ML:hover {
 color: #ddd;
